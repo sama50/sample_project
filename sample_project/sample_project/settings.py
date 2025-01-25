@@ -125,9 +125,9 @@ DEFAULT_AUTO_FIELD = 'django.db.models.BigAutoField'
 
 
 CELERY_TIMEZONE = "Asia/Kolkata"
-CELERY_BROKER_URL='amqp://guest:guest@172.31.10.156:5672/vibevhost'
+CELERY_BROKER_URL=''
 
-CHANNEL_REDIS_HOST =  "redis://172.31.10.156"
+CHANNEL_REDIS_HOST =  " "
 CHANNEL_LAYERS = {
     "default": {
         "BACKEND": "channels_redis.core.RedisChannelLayer",
